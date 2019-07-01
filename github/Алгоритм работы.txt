@@ -1,0 +1,14 @@
+1. Забрать на локальную машину изменения с сервера
+
+git fetch
+git pull
+
+2. Файлы которые менялись добавить в индекс
+
+git add README.md
+git add lesson5.html
+
+3. Закомитить изменения и передать на удаленный сервер
+
+git commit -m "initial project version"
+git push origin master

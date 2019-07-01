@@ -1,0 +1,17 @@
+Для создания нового удаленного репозитория на сайте ginhub нужно:
+
+1. На сайте https://github.com/nikolayp2013 создать новый public репозиторий is_centre_cpp
+
+2. На локальном диске создать каталог D:\my_projects\is_centre_cpp
+
+3. В нем создать файл Readme.txt
+
+4. В консоли перейти в каталог и выполнить команду git init
+
+5. git add Readme.txt  // добавляем отслеживание файла
+
+6. git commit -m "First Commit"  // фиксируем изменения
+
+7. git remote set-url origin https://github.com/nikolayp2013/is_centre_cpp.git  // связываем локальный репозиторий с уданным репоизторием на сайте github.com
+
+8. git push -u origin master  //  передаем изменения на сервер
